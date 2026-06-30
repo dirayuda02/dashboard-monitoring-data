@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard Monitoring Data</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+
+<body>
+
+<div class="dashboard">
+
+<header>
+<h1>Dashboard Monitoring Data</h1>
+</header>
+
+<div class="cards">
+
+<div class="card">
+<h3>Total Pengguna</h3>
+<p id="users">1200</p>
+</div>
+
+<div class="card">
+<h3>Total Project</h3>
+<p id="projects">45</p>
+</div>
+
+<div class="card">
+<h3>Total Tugas</h3>
+<p id="tasks">310</p>
+</div>
+
+</div>
+
+<div class="chart-box">
+
+<h2>Grafik Aktivitas</h2>
+
+<canvas id="myChart"></canvas>
+
+</div>
+
+<button onclick="updateDashboard()">
+Perbarui Data
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
